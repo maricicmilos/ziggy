@@ -1,0 +1,357 @@
+body {
+    color: #6D343C;
+    background: #fdfdfd;
+}
+
+section {
+    overflow: hidden;
+}
+
+.content-section {
+    margin-bottom: 2.6em;
+    padding: 0 0.20em;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn-link {
+    /*background: #EDCD60;*/
+    background: #f0d77f;
+    color: #6D343C;
+    font-weight: 600;
+    border: 2px solid #f2de96;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #6D343C;
+    background: #EDCD60;
+    /*background: #f0d77f;*/
+}
+
+
+.s-heading {
+    border-bottom: 4px solid #EDCD60;
+    border-radius: 4px;
+    margin-bottom: 1.40em;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+#brand-img {
+    max-width: 32%;
+}
+
+#main-nav-holder {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#main-nav {
+    background: #c6738d;
+    background: -moz-linear-gradient(left, #c6738d 0%, #9e5b70 68%, #724251 100%);
+    background: -webkit-linear-gradient(left, #ea91a6 0%, #9e5b70 68%, #724251 100%);
+    top: 0;
+    left: 0;
+    opacity: 0.70;
+    z-index: 1;
+    min-width: 100%;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #EDCD60;
+    position: absolute;
+    padding: 0.4em;
+}
+
+#main-nav a {
+    display: grid;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 450;
+    text-transform: capitalize;
+    opacity: 1;
+    z-index: 2;
+}
+
+#main-glide ul li {
+    overflow: hidden;
+}
+
+#main-nav a:hover {
+    color: #f5fd22;
+}
+
+button.navbar-toggler:focus {
+    outline: none !important;
+}
+
+.navbar-toggler i {
+    color: #EDCD60 !important;
+    font-size: 1.8em;
+    border: 1px solid #EDCD60;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+
+.slide-cont-text {
+    max-width: 60%;
+}
+
+.slide-cont {
+    justify-content: flex-end;
+}
+
+
+.slide-cont-text {
+    display: inline-block;
+    margin: 56% 6% 8% 0;
+    padding: 1% 3%;
+    background-color: rgba(113, 122, 129, 0.45);
+}
+
+.slide-cont-text h1,
+.slide-cont-text h2 {
+    display: block;
+}
+
+.one {
+    background: url('../images/carpenter-s-1920x1080.png');
+    background-size: cover;
+}
+
+.one,
+.two,
+.three {
+    font-size: 0.8em;
+}
+
+
+.one h2,
+.two h2,
+.three h2 {
+    font-size: 1.6em;
+    text-align: right;
+}
+
+.one span,
+.two span,
+.three span {
+    font-size: 2.2em;
+    text-shadow: 2px 2px #5b3440;
+}
+
+
+.two {
+    background: url('../images/cutting-wood-on-workbench-1980x1080.png');
+    background-size: cover;
+}
+
+.three {
+    background: url('../images/man-measures-wood-1920x1080.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.slidee p {
+    margin: 1.2em 0;
+    color: #f0eced;
+    font-size: 1.20em;
+}
+
+.slidee-link {
+    display: block;
+    background-color: #EDCD60;
+    color: #717B7F;
+    border: 2px solid #724251;
+    font-weight: 600;
+}
+
+#proizvodi p {
+    margin-bottom: 2.4em;
+}
+
+#proizvodi a.link {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#usluge .portfolio-item a {
+    color: #EDCD60;
+}
+
+#usluge .portfolio-item a:hover {
+    color: #d5b856;
+    text-decoration: none;
+}
+
+.fab {
+    color: #878787;
+}
+
+.fab:hover {
+    color: #bfb5b5;
+}
+
+.fa-hooli {
+    color: #ffffff;
+}
+
+ul.main-services li i {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+ul.main-services li p {
+    margin-bottom: 8px;
+}
+
+#kontakt .col-3 h3 span {
+    font-weight: 700;
+}
+
+#kontakt .col-3 p {
+    font-weight: 700;
+}
+
+#contactFormHolder {
+    padding: 3em 1em;
+    background: rgba(38, 56, 69, 0.8);
+    color: #EDCD60;
+}
+
+#contactFormHolder .form-control {
+    background: rgba(226, 217, 220);
+}
+
+footer {
+    background-color: #263845;
+}
+
+footer p {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+
+footer li {
+    margin-bottom: 0.4em;
+}
+
+footer ul.services li {
+    border-bottom: 1px solid #2b404f;
+}
+
+footer li a {
+    color: #878787;
+    font-size: 16px;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #bfb5b5;
+}
+
+.address {
+    color: #878787;
+}
+
+.copyright {
+    color: #878787;
+    background-color: #1f2d38;
+    font-size: 0.85em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (min-width: 760px) {
+
+
+    #main-nav {
+        padding: 0.4em 1.2em;
+    }
+
+    .slide-cont-text {
+        max-width: 45%;
+    }
+
+    .slide-cont-text {
+        display: inline-block;
+        margin: 22% 6% 8% 0;
+        padding: 1% 3%;
+        background-color: rgba(113, 122, 129, 0.45);
+    }
+
+    .slide-cont {
+        max-height: 640px;
+        justify-content: flex-end;
+    }
+
+
+    .one h2 {
+        font-size: 1.6em;
+        text-align: right;
+    }
+
+    .one span {
+        font-size: 2.8em;
+        text-shadow: 3px 3px #5b3440;
+    }
+
+    .three {
+        background-position: left;
+    }
+
+    .slidee-link {
+        display: block;
+        background-color: #EDCD60;
+        color: #717B7F;
+        border: 2px solid #724251;
+        font-weight: 600;
+    }
+
+    #contactFormHolder {
+        padding: 3em 4em;
+        border: 2px solid #E2D9DC;
+        border-radius: 5px;
+        margin-bottom: 2em;
+    }
+
+
+}
+
+@media screen and (min-width: 960px) {
+
+    #main-nav {
+        padding: 0.4em 1.20em;
+    }
+
+    #brand-img {
+        max-width: 38%;
+    }
+
+    .content-section {
+        margin-bottom: 3.4em;
+        padding: 0 1.80em;
+    }
+
+    .slide-cont-text {
+        max-width: 38%;
+    }
+
+    .slide-cont-text {
+        margin: 28% 6% 8% 0;
+    }
+
+    .slide-cont {
+        max-height: 880px;
+    }
+
+
+}
